@@ -8,7 +8,7 @@ description: 'Everything you need to know about Filecoin Plus!'
 
 # Welcome to the Filecoin Plus Docs!
 
-TBD.
+Here's everything you need to know about Filecoin Plus!
 
 ## Getting Started
 
