@@ -34,7 +34,7 @@ const config = {
           // showLastUpdateTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          // customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -71,11 +71,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/getting-started',
+                to: '/intro',
               },
               {
                 label: 'About Filecoin Plus',
-                to: '/about-filecoin-plus',
+                to: '/intro',
               },
             ],
           },
