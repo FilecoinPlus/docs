@@ -71,11 +71,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/intro',
+                to: '/',
               },
               {
                 label: 'About Filecoin Plus',
-                to: '/intro',
+                to: '/',
               },
             ],
           },
