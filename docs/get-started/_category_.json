@@ -1,0 +1,9 @@
+{
+  "label": "Get started",
+  "position": 3,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Quickly get started with Filecoin Plus."
+  }
+}

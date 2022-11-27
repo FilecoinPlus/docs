@@ -1,4 +1,4 @@
-# Filecoin Plus Documentation Website
+# Filecoin Plus Docs
 
 The Filecoin Plus documentation website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 

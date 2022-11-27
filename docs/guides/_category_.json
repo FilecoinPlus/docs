@@ -1,8 +1,9 @@
 {
   "label": "Guides",
-  "position": 2,
+  "position": 4,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
-    "description": "Guides to help you through your Filecoin Plus journey."
+    "description": "Guides to help you navigate through Filecoin Plus."
   }
 }
