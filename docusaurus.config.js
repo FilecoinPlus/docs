@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'nikas-org',
-  projectName: 'filecoin-plus-docs',
+  organizationName: 'FilecoinPlus',
+  projectName: 'docs',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -28,7 +28,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/nikas-org/filecoin-plus-docs/blob/main/',
+          editUrl: 'https://github.com/FilecoinPlus/docs/blob/main/',
           breadcrumbs: false,
           // showLastUpdateAuthor: true,
           // showLastUpdateTime: true,
@@ -61,7 +61,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/nikas-org/filecoin-plus-docs',
+            href: 'https://github.com/FilecoinPlus/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,7 +105,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nikas-org/filecoin-plus-docs',
+                href: 'https://github.com/FilecoinPlus/docs',
               },
             ],
           },
