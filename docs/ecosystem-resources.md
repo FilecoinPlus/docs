@@ -15,7 +15,7 @@ Non-exhaustive list of ecosystem resources and tools.
 
 ## Docs
 
-- [Filecoin Plus Official Docs](https://docs.filecoin.io/store/filecoin-plus)
+- [Filecoin Plus Official Docs](https://docs.filecoin.io/basics/how-storage-works/filecoin-plus/)
 
 ## Tools
 
