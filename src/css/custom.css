@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
+
 /* You can override the default Infima variables here. */
 /* :root {
   --ifm-color-primary: #2e8555;
@@ -41,3 +43,51 @@
 .blue-text {
   color: rgba(3, 115, 245, 1);
 } */
+
+:root {
+  /* --ifm-font-size-base: 95%; */
+  --ifm-menu-link-padding-horizontal: 0.75rem;
+  --ifm-menu-link-padding-vertical: 0.4rem;
+  /* --ifm-font-family-base: 'Inter'; */
+}
+
+.theme-doc-sidebar-item-category div > a {
+  font-size: 13px;
+  font-weight: var(--ifm-font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* color: rgba(136, 153, 168, 1); */
+}
+
+.menu__list-item-collapsible:hover,
+.menu__list-item-collapsible--active {
+  background: inherit;
+}
+
+nav.menu {
+  font-weight: var(--ifm-font-weight-normal);
+  font-size: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.menu a {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.menu__link--active {
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+.menu__link--active:not([href]) {
+  color: var(--ifm-menu-color);
+}
+
+li.theme-doc-sidebar-item-category.menu__list-item {
+  margin-top: 1rem;
+}
