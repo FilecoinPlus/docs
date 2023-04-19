@@ -28,13 +28,14 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: false,
           editUrl: 'https://github.com/FilecoinPlus/docs/blob/main/',
           breadcrumbs: false,
           // showLastUpdateAuthor: true,
           // showLastUpdateTime: true,
         },
         theme: {
-          // customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css'),
         },
         gtag: {
           trackingID: 'G-NVXKSQYCC4',
@@ -58,7 +59,7 @@ const config = {
             type: 'doc',
             docId: 'introduction',
             position: 'left',
-            label: 'Documentation',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/FilecoinPlus/docs',
@@ -74,11 +75,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Getting Started',
-                to: '/',
-              },
-              {
-                label: 'About Filecoin Plus',
+                label: 'Introduction',
                 to: '/',
               },
             ],
