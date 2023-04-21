@@ -12,11 +12,49 @@ This page is currently a work in progress, and some information may be incomplet
 
 ## Types of requests
 
-### Automated DataCap Allocation
+### Client DataCap Request
 
-### Direct DataCap Allocation
+```mermaid
+stateDiagram-v2
+  state DataCap_Amount <<choice>>
+  [*] --> RequestDataCap
+  RequestDataCap --> DataCap_Amount
+  DataCap_Amount --> Tier_01: Less than 32 GiB
+  DataCap_Amount --> Tier_02: Between 32 GiB and 500 TiB
+  DataCap_Amount --> Tier_03: More than 500 TiB
+  Tier_01: Automatic verification
+  Tier_02: Direct request
+  Tier_03: LDN request
+  RequestDataCap: Client requests DataCap
 
-### LDN[^1] DataCap Allocation
+  state Tier_01 {
+    [*] --> AutomatedVerifier
+    AutomatedVerifier --> [*]
+    AutomatedVerifier: Go to automated verifier
+  }
+
+  state Tier_02 {
+    [*] --> CreateDirectRequest
+    CreateDirectRequest --> FindNotariesToApprove
+    FindNotariesToApprove --> [*]
+    CreateDirectRequest: Create a request on `filecoin-plus-client-onboarding` repository
+    FindNotariesToApprove: Find notaries to approve the request
+  }
+
+  state Tier_03 {
+    [*] --> CreateLdnRequest
+    CreateLdnRequest --> FindLdnNotariesToApprove
+    FindLdnNotariesToApprove --> [*]
+    CreateLdnRequest: Create a request on `filecoin-plus-large-datasets` repository
+    FindLdnNotariesToApprove: Find notaries to approve the request
+  }
+```
+
+### Automated DataCap Allocation Request
+
+### Direct DataCap Allocation Request
+
+### LDN[^1] DataCap Allocation Request
 
 Version: 3.0
 
@@ -58,34 +96,28 @@ Version: 3.0
 
 #### Repo: [filecoin-project/notary-governance](https://github.com/filecoin-project/notary-governance)
 
-<!-- Labels
-
-- TBD -->
-
 #### Repo: [filecoin-project/filecoin-plus-client-onboarding](https://github.com/filecoin-project/filecoin-plus-client-onboarding)
 
-Issue labels
-
-- `bot:lookingGood`
-- `bot:reviewNeeded`
-- `state:Further info needed`
-- `state:Granted`
-- `state:Verifying`
-- `status:Error`
+| Label                       | Description |
+| --------------------------- | ----------- |
+| `bot:lookingGood`           |
+| `bot:reviewNeeded`          |
+| `state:Further info needed` |
+| `state:Granted`             |
+| `state:Verifying`           |
+| `status:Error`              |
 
 #### Repo: [filecoin-project/filecoin-plus-large-datasets](https://github.com/filecoin-project/filecoin-plus-large-datasets)
 
-Issue labels
-
-Label | Description
------ | -----------
-`efil+` |
-`error` |
-`governance review needed` |
-`granted` |
-`ready to sign` |
-`start sign datacap` |
-`total datacap reached` |
-`validated` |
+| Label                      | Description |
+| -------------------------- | ----------- |
+| `efil+`                    |
+| `error`                    |
+| `governance review needed` |
+| `granted`                  |
+| `ready to sign`            |
+| `start sign datacap`       |
+| `total datacap reached`    |
+| `validated`                |
 
 [^1]: [Large Dataset Notary](./glossary#large-dataset-notary)
