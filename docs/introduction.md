@@ -14,6 +14,12 @@ Filecoin Plus (Fil+) is a program created to incentivize the onboarding of usefu
 
 The Fil+ verification process is multifaceted and can be automatic or manual depending on the [DataCap](reference/glossary#datacap) amount involved. With DataCap, a client can make verified deals with storage providers and have higher [quality-adjusted power](reference/glossary#quality-adjusted-power-qap) attached, making storage providers more likely to win rewards.
 
+There are many incentive considerations and this is where humans are placed in the protocol of a technical network. This is essential for a goal-driven network of utility. On the macro level, Filecoin Plus incentivizes the network as a whole to acquire and subsidize clients with real business use cases and needs. Sealing as fast as one can becomes less important relative to acquiring real storage use cases. Clients, on the other hand, can demand services and applications that are not yet present on the network or provided by storage miners, hence shaping the products and services on Filecoin.
+
+Given that there might be cases of abuse, transparency and accountability with limited trust will go a long way. More details around how this works in practice can iterate, adapt, and evolve in the repository as long as it reflects the goals and values of the Filecoin Plus Principles.
+
+The ultimate goal of Filecoin Plus is to accelerate the proliferation of products and compliant use cases on Filecoin with both geographic and use case diversity. Filecoin Plus provides the framework and incentive for business development to happen on Filecoin. After all, adoption is more than just technology. Client needs and legitimate use cases will shape the goods and services produced on Filecoin.
+
 ## Join the community
 
 - Slack - [Sign up](https://filecoin.io/slack) for the Filecoin Slack workspace and join us in the [`#fil-plus`](https://filecoinproject.slack.com/archives/C01DLAPKDGX) channel. (Tip: You might also want to check out other channels from [working groups](governance/working-groups).)
