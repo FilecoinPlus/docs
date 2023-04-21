@@ -77,18 +77,15 @@ Issue labels
 
 Issue labels
 
-- `Application:AddressNotValid`
-- `bot:lookingGood`
-- `bot:readyToSign`
-- `bot:reviewNeeded`
-- `issue:TotalDcReached`
-- `state:Approved`
-- `state:Further info needed`
-- `state:Granted`
-- `state:StartSignDatacap`
-- `state:Verifying`
-- `status:Error`
-- `status:needsDiligence`
-- `warn:checkTransaction`
+Label | Description
+----- | -----------
+`efil+` |
+`error` |
+`governance review needed` |
+`granted` |
+`ready to sign` |
+`start sign datacap` |
+`total datacap reached` |
+`validated` |
 
 [^1]: [Large Dataset Notary](./glossary#large-dataset-notary)
