@@ -19,6 +19,6 @@ The Fil+ verification process is multifaceted and can be automatic or manual dep
 - Slack - [Sign up](https://filecoin.io/slack) for the Filecoin Slack workspace and join us in the [`#fil-plus`](https://filecoinproject.slack.com/archives/C01DLAPKDGX) channel. (Tip: You might also want to check out other channels from [working groups](governance/working-groups).)
 - Meetings - Join [governance meetings](governance/overview#meetings) or [watch recordings](https://www.youtube.com/playlist?list=PL_0VrY55uV1-cwaAU8lcChONxYQ_Bj9hx) from previous meetings.
 
-### Code of conduct
+## Code of conduct
 
 Filecoin Plus follows the [Filecoin Community Code of Conduct](https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md).

@@ -84,8 +84,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/filecoin-plus',
+                label: 'Discussions',
+                href: 'https://github.com/filecoin-project/notary-governance/discussions',
               },
               {
                 label: 'Slack',
