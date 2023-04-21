@@ -22,8 +22,13 @@ The ultimate goal of Filecoin Plus is to accelerate the proliferation of product
 
 ## Join the community
 
-- Slack - [Sign up](https://filecoin.io/slack) for the Filecoin Slack workspace and join us in the [`#fil-plus`](https://filecoinproject.slack.com/archives/C01DLAPKDGX) channel. (Tip: You might also want to check out other channels from [working groups](governance/working-groups).)
-- Meetings - Join [governance meetings](governance/overview#meetings) or [watch recordings](https://www.youtube.com/playlist?list=PL_0VrY55uV1-cwaAU8lcChONxYQ_Bj9hx) from previous meetings.
+- [Sign up](https://filecoin.io/slack) for the Filecoin Slack workspace and join us in the [`#fil-plus`](https://filecoinproject.slack.com/archives/C01DLAPKDGX) channel. Here's a list of public slack channels related to Fil+ (Tip: You might also want to check out other channels from [working groups](governance/working-groups).):
+  - [#fil-plus](https://filecoinproject.slack.com/archives/C01DLAPKDGX)
+  - [#fil-plus-dashboards](https://filecoinproject.slack.com/archives/C02QHUP3SQG)
+  - [#fil-plus-application-review](https://filecoinproject.slack.com/archives/C036JKD8NVA)
+  - [#fil-plus-enterprise-wg](https://filecoinproject.slack.com/archives/C03MHVAABFV)
+  - [#fil-plus-trust-wg](https://filecoinproject.slack.com/archives/C0405HANNBT)
+- Join [governance meetings](governance/overview#meetings) or [watch recordings](https://www.youtube.com/playlist?list=PL_0VrY55uV1-cwaAU8lcChONxYQ_Bj9hx) from previous meetings.
 
 ## Code of conduct
 
